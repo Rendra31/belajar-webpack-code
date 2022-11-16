@@ -1,0 +1,12 @@
+$bg : rgb(230, 224, 172);
+
+$primary : lightblue;
+
+$danger: salmon;
+
+
+@import 'bootstrap/scss/bootstrap';
+
+body {
+  background-color: $bg;
+}
