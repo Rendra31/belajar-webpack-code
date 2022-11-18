@@ -2,20 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Belajar Webpack</title>
-    <script defer="defer" src="main.js"></script>
-  </head>
+  <script defer src="main.js"></script><link href="main.css" rel="stylesheet"></head>
+
   <body>
-    <div class="row justify-content-center mt-5">
+    <img src="img/reactWallpaper..png" alt="" />
+    <div class="row justify-content-center">
       <div class="col-4">
         <div class="card">
-          <div class="card-header text-center"><h3>WPU Super App</h3></div>
+          <div class="card-header text-center">
+            <h3>WPU Super App</h3>
+          </div>
           <div class="card-body">
             <div class="alert alert-danger" role="alert" id="error">error!</div>
             <h5 class="card-title">Kalkulator Sakti</h5>
             <div class="input-group mb-3">
               <input
+                type="text"
                 class="form-control"
                 placeholder="masukkan angka"
                 id="operand1"
@@ -24,6 +28,7 @@
               />
               <span class="input-group-text">+</span>
               <input
+                type="text"
                 class="form-control"
                 placeholder="masukkan angka"
                 id="operand2"
@@ -53,6 +58,8 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal -->
     <div
       class="modal fade"
       id="jokesModal"
